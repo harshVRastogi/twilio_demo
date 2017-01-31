@@ -1,7 +1,5 @@
 package com.example.cloudkinetics.contactsdemo;
 
-import java.util.Date;
-
 /**
  * Created by cloud kinetics on 1/28/2017.
  */
