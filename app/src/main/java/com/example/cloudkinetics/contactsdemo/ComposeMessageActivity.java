@@ -3,7 +3,6 @@ package com.example.cloudkinetics.contactsdemo;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.graphics.drawable.VectorDrawableCompat;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
@@ -12,7 +11,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,14 +20,11 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.net.ConnectException;
-import java.net.SocketException;
-import java.net.SocketTimeoutException;
 import java.net.UnknownHostException;
 import java.util.Random;
 
 import okhttp3.Call;
 import okhttp3.Callback;
-import okhttp3.Request;
 import okhttp3.Response;
 
 /**
@@ -167,6 +162,6 @@ public class ComposeMessageActivity extends AppCompatActivity {
 						}
 
 					}
-				}
+				};
 	}
 }
